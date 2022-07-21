@@ -5,12 +5,11 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Write down the radius:  ");
-        int number = scanner.nextInt();
+        int radius = scanner.nextInt();
 
 
         Circle circle = new Circle(Math.PI);
         circle.area();
-        int radius = number;
         System.out.println("The area equals to: " + Math.PI * (radius * radius));
 
         circle.circumference();
